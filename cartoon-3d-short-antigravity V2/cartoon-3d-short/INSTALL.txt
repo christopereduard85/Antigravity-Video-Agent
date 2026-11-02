@@ -1,0 +1,16 @@
+UNIVERSAL INSTALL
+
+1. Extract the ZIP archive.
+2. Copy the folder named `cartoon-3d-short` (the folder containing SKILL.md) into ONE of these locations:
+
+   Claude Code global:       ~/.claude/skills/cartoon-3d-short/
+   Codex global:             ~/.agents/skills/cartoon-3d-short/
+   Antigravity global:       ~/.gemini/config/skills/cartoon-3d-short/
+
+   Project scope for Codex/Antigravity: <project>/.agents/skills/cartoon-3d-short/
+   Project scope for Claude Code:       <project>/.claude/skills/cartoon-3d-short/
+
+3. Reload/restart the agent if needed.
+4. Ask: "Use the cartoon-3d-short skill and make a short about [topic]."
+
+The skill package is cross-agent, but the rendering workflow still requires Node.js, Python 3, FFmpeg, Remotion, @remotion/three, and a configured Remotion project. Read README.md and SKILL.md.
